@@ -1,0 +1,97 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  padding: 0;
+  margin: 0;
+}
+.products {
+  width: 1180px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: auto;
+}
+.products__heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.products__assortmenet {
+  display: flex;
+  justify-content: space-between;
+}
+.products__card {
+  position: relative;
+  width: 380px;
+  min-height: 482px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.products__new {
+  width: 110px;
+  height: 24px;
+  border-radius: 8px;
+  background-color: #fdcff3;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.products__last {
+  width: 136px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: #FFCF56  ;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 143px;
+}
+.products__picture {
+  object-fit: cover;
+  width: 380px;
+  height: 213.75px;
+}
+.products__info {
+  margin: 24px;
+}
+.products__title {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+}
+.products__text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.products__btn {
+  width: 332px;
+  height: 48px;
+  position: absolute;
+  bottom: 24px;
+  background-color: #fff;
+  border: 2px solid #42940f;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #42940f;
+}
+.sold{
+  background-color: #4E4E4E;
+  color: #fff;
+  border: 2px solid #4E4E4E;
+}
